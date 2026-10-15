@@ -1,0 +1,13 @@
+{
+  "name": "vietmind",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VietMind monorepo voi BE va FE duoc tach biet",
+  "scripts": {
+    "dev:be": "npm --prefix be run dev",
+    "dev:fe": "npm --prefix fe run dev",
+    "build:be": "npm --prefix be run build",
+    "build:fe": "npm --prefix fe run build",
+    "typecheck": "npm --prefix be run typecheck && npm --prefix fe run typecheck"
+  }
+}
